@@ -1,0 +1,8 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global"> 
+   <br/><br/><br/><br/><br/>
+   <img class = "slds-align_absolute-center" src="{!$Resource.Codex}"/> 
+   <br/><br/>
+    <div class = "slds-align_absolute-center" >
+    	<p style="color:white; font-size: 18px;">A Community to View, Compare, and Store World of Warcraft Parses</p>
+    </div>
+</aura:component>

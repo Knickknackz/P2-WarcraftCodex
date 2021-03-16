@@ -1,0 +1,6 @@
+<aura:component controller="MyCharacterListController" implements="forceCommunity:availableForAllPageTypes" access="global">
+    <aura:attribute name="Characters" type="Character__c" />
+    <aura:attribute name="Columns" type="List" />
+    <aura:handler name="init" value="{!this}" action="{!c.myAction}" />
+    <lightning:datatable data="{! v.Characters }" columns="{! v.Columns }" keyField="Name" hideCheckboxColumn="true"/>	
+</aura:component>

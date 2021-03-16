@@ -1,0 +1,23 @@
+<aura:component controller="compareCharacterController" implements="forceCommunity:availableForAllPageTypes" access="global">
+    <aura:attribute name="cWrap" type="object" />
+    <aura:attribute name="Columns" type="List" />
+    <br/>
+    <br/>
+    <aura:handler name="init" value="{!this}" action="{!c.myAction}" />
+    <lightning:datatable class="tablecol" data="{!v.cWrap}" columns="{!v.Columns}" keyField="Name" hideCheckboxColumn="true" />
+    <b style="color:white;"  class="slds-align_right">Healing Rankings?</b>
+    <ui:inputCheckbox aura:id="checkbox" class="slds-align_right" change="{!c.myAction}"/>
+    <br/>
+    <table style="background-color:white; table-layout:fixed;" class="slds-align_left">
+		<tr>
+            <th style="color:black; width:100px;"> Key(%): </th>
+            <th style="color:grey; width:100px;"> 0-25% </th>
+            <th style="color:green; width:100px;"> 25-50% </th>
+            <th style="color:blue; width:100px;"> 50-75% </th>
+            <th style="color:purple; width:100px;"> 75-90% </th>
+            <th style="color:orange; width:100px;"> 90-99% </th>
+            <th style="color:pink; width:100px;"> 99-100% </th>
+      	</tr>
+  	</table>
+    <b style="color:white;">Note: The value is your best performance compared to all other players of the same class/spec.</b>
+</aura:component>

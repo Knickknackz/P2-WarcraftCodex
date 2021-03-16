@@ -1,0 +1,10 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:hasRecordId" access="global">
+    <aura:attribute name="fields" type="String[]" default="['Name', 'Class__c', 'Server__c', 'Region__c']"/>
+    <lightning:card iconName="standard:user" title="Character Selected">
+       <lightning:recordForm
+        recordId="{!v.recordId}"
+        objectApiName="Character__c"
+        fields="{!v.fields}"
+        mode="readonly" />
+    </lightning:card>
+</aura:component>

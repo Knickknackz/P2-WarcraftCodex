@@ -1,0 +1,14 @@
+<aura:component controller = 'characterController' implements="forceCommunity:availableForAllPageTypes" access="global">
+    <aura:attribute name='newC' type='Character__c'/>
+    <div style="width:80%;" class="slds-align_absolute-center">
+            <lightning:recordEditForm  objectApiName="Character__c">
+                <label for="charName" class="whiteText slds-align_left">Character Name</label>
+                <lightning:inputField fieldName="Name" aura:id="charName" variant="label-hidden"/>
+                <label for="charRegion" class="whiteText slds-align_left">Region</label>
+                <lightning:inputField fieldName="Region__c" aura:id="charRegion" variant="label-hidden"/>
+                <label for="charServer" class="whiteText slds-align_left">Server</label>
+                <lightning:inputField fieldName="Server__c" aura:id="charServer" variant="label-hidden"/>       
+                <lightning:button variant="brand" label="Create or Update Character" title="Base action" onclick="{!c.createCharacter}"/>
+        	</lightning:recordEditForm>
+    </div>
+</aura:component>

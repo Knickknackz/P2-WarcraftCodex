@@ -1,0 +1,4 @@
+<aura:component controller = 'characterController' implements="force:hasRecordId,forceCommunity:availableForAllPageTypes">
+    <aura:attribute name="recordId" type="String" />
+	<lightning:button class = "slds-align_absolute-center" variant="brand" label="Update Character" title="Base action" onclick="{!c.updateCharacter}"/>
+</aura:component>

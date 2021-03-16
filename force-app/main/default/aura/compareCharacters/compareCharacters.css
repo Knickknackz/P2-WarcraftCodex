@@ -1,0 +1,29 @@
+.THIS lightning-primitive-header-actions {
+    display: none;
+}
+.THIS{
+    font-size: 18px;
+}
+.THIS .tier0{
+    color:grey;
+}
+.THIS .tier1{
+    color:green;
+}
+.THIS .tier2{
+    color:blue;
+}
+.THIS .tier3{
+    color:purple;
+}
+.THIS .tier4{
+    color:orange;
+}
+.THIS .tier5{
+    color:pink;
+}
+
+.THIS.tablecol thead th span {
+    font-size:12px;	
+    overflow:visible;
+}
