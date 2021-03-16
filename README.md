@@ -1,8 +1,8 @@
-# Postalforce - Postal Community
+# WarcraftCodex - WarcraftLogs Community Site
 
 ## Project Description
 
-YIGCWMT Postal Service is a Salesforce CRM Application and Experience Cloud Portal which allows employees to create and track and customers to track packages on their path through the delivery process. Employees can log into the application and depending on their profile and role have access to those data and features required to perform their work. Customers can log into the Experience Cloud Portal and track their packages, submit web-to-case forms, and submit missing and insured packages for insurance refunds in order to reduce the strain on employees and improve productivity.
+WarcraftCodex is a Salesforce CRM Application and Experience Cloud Portal which allows customers to create, compare and track the rankings of themselves, guildmates or others. Employees can log into the application and depending on their profile and role can modify/add data and respond to support cases. Customers can log into the Experience Cloud Portal to manage, update and compare their characters, and submit web-to-case forms to insure that their experience is wortwhile.
 
 ## Technologies Used
 
@@ -12,34 +12,39 @@ YIGCWMT Postal Service is a Salesforce CRM Application and Experience Cloud Port
 * Google Suite
 * SFDX
 * Experience Cloud
+* Postman
+* Apex
+* HTML
+* CSS
+* Lightning Aura Component Framework
 
 ## Features
   * Current:
-  * - Internal package tracking and automated CEO notification of missing packages
-  * - Internal insurance approval process with automated approval under $100
-  * - Customer triggered insurance approval process with guaranteed review for any amount
-  * - Paginated list views for customer package tracking filtered by in transit, delivered, and missing
-  * - Customer case submission and tracking with a customer support page
+  * - Consumes WarcraftLogs API to store and visualize data
+  * - Displays data in a pleasent and intuitive way
+  * - Allows user-specific customization and features
+  * - Can show different information based on which rankings you would like to look at
+  * - Has individual record pages to furthur inspect and individual character
   * Future:
-  * - Implement customer commenting on open cases
-  * - Implement Sales Cloud in Experience Cloud further improving workplace productivity
-  * - Implement column sorting on various list Visual Force pages for customers
+  * - Implementation for the other raids in WoW Classic
+  * - Implement for Retail WoW
+  * - Allow sorting when viewing data
+  * - Allow more filters for data (Other specs and Tanks)
 
 ## Retrospective
  * Positives
- * - Working as a team
+ * - Ulilizing a kanban board
  * - Open about issues and always having someone around willing to help
  * - Finished on time
  * - Allowing people to choose what they worked on meant greater per-participant interest
  * - Polished product
  * To Improve
- * - Starting sooner and implementing an Agile framework from the beginning instead of partway
- * - More even assignment of roles so everyone could have done a bit of everything
- * - Better time management relating to deadlines
- * - Improved knowledge and understanding of limits and restrictions
+ * - Can have better habits for naming conventions
+ * - Had to drop many features due to time because initial idea was too ambitious
+ * 
 
 ## Contributors
-Asija Watson, Charles Kosoy, Clara Mahenzi, John Carrigan, Mena Soliman
+John Carrigan
 
 ## License
 Acceptable Use and External-Facing Services Policy
